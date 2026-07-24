@@ -1,0 +1,6 @@
+[
+  {"name": "web_search", "description": "Search the web for current information. Use for questions about recent events or when internal knowledge isn't sufficient.", "params": {"query": "string", "max_results": "int"}},
+  {"name": "calculator", "description": "Evaluate mathematical expressions. Use for any numeric calculation.", "params": {"expression": "string"}},
+  {"name": "read_file", "description": "Read the contents of a file. Use when the user references a file or when you need to see code.", "params": {"path": "string"}},
+  {"name": "send_email", "description": "Send an email. REQUIRES APPROVAL. Use only for confirmed communication tasks.", "params": {"to": "string", "subject": "string", "body": "string"}}
+]

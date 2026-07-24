@@ -1,0 +1,6 @@
+[
+  {"task": "Research the top 3 vector databases for RAG in 2026", "type": "research", "expected_tools": ["web_search", "compare"]},
+  {"task": "Fix the failing test in test_utils.py", "type": "coding", "expected_tools": ["read_file", "execute_tests", "edit_file"]},
+  {"task": "Analyze Q3 sales data and identify top-performing regions", "type": "analysis", "expected_tools": ["query_db", "generate_chart"]},
+  {"task": "Draft a customer support response for ticket #12345", "type": "support", "expected_tools": ["lookup_order", "draft_email"]}
+]
